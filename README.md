@@ -1,219 +1,239 @@
-# B2B Marketplace
-### A Business-to-Business Procurement & Supplier Discovery Platform
+# BizConnect
+### B2B Procurement & Supplier Discovery Platform
 
-> Connecting businesses, simplifying procurement, and creating opportunities through a unified B2B marketplace.
+**Discover suppliers. Publish requirements. Compare quotations. Build business connections.**
+
+BizConnect is a B2B platform designed to connect buyers, suppliers, manufacturers, vendors, and service providers through a unified digital marketplace.
+
+The platform aims to simplify business procurement by bringing product discovery, purchasing requirements, supplier quotations, and surplus inventory opportunities into one ecosystem.
 
 ---
 
-## 1. What is this project?
+## Overview
 
-**B2B Marketplace** is a web-based business-to-business platform designed to connect buyers, suppliers, manufacturers, vendors, and service providers through a centralized digital marketplace.
+Business procurement often involves fragmented processes. Buyers independently search for suppliers, communicate purchasing requirements, request quotations, compare offers, and negotiate commercial terms.
 
-Unlike traditional e-commerce platforms that primarily focus on individual consumers, this platform focuses on business requirements, bulk procurement, supplier discovery, and professional business services.
+At the same time, suppliers—particularly small and medium-sized businesses—may struggle to discover relevant purchasing opportunities and reach potential buyers.
 
-It provides an environment where businesses can:
+**BizConnect** aims to address these challenges by providing a centralized platform where businesses can discover opportunities, connect with potential partners, and manage procurement interactions more efficiently.
 
-- Discover products offered by different suppliers.
-- Publish purchasing requirements.
-- Receive quotations from interested suppliers.
-- Compare supplier offers.
-- Explore professional and business services.
-- Connect with businesses offering surplus inventory.
+Unlike conventional B2C e-commerce platforms, BizConnect focuses on business-oriented transactions, bulk purchasing requirements, supplier relationships, and structured quotation workflows.
 
-The platform aims to simplify interactions between businesses by bringing procurement-related activities into one place.
+## The Problem
+
+Business procurement involves several challenges:
+
+- **Fragmented Supplier Discovery:** Finding suitable suppliers often requires searching across multiple platforms and channels.
+- **Inefficient Procurement:** Collecting and comparing quotations from different suppliers can be time-consuming.
+- **Limited Business Visibility:** Smaller suppliers may have difficulty reaching businesses actively looking for their products.
+- **Unstructured Purchasing Requirements:** Buyers lack a centralized mechanism for publishing detailed procurement requirements.
+- **Underutilized Inventory:** Excess or surplus stock may remain unused despite potential demand from other businesses.
+
+## Our Solution
+
+BizConnect provides a unified environment for business-to-business interactions through interconnected modules.
 
 ### Core Modules
 
 | Module | Description |
 |---|---|
-| Home | Centralized entry point for discovering marketplace opportunities. |
-| Marketplace | Explore products and offerings from different suppliers. |
-| Requirements | Publish business purchasing requirements and receive supplier quotations. |
-| Services | Discover services offered by businesses and professionals. |
-| Surplus Inventory | Enable businesses to make excess or unused inventory available to other businesses. |
-| User Management | Manage business accounts, authentication, and user activities. |
+| **Product Marketplace** | Discover products and offerings published by manufacturers, vendors, and suppliers. |
+| **Requirement Management** | Allow buyers to publish purchasing requirements with product specifications, quantities, budgets, and delivery details. |
+| **Quotation Management** | Enable suppliers to respond to requirements with quotations that buyers can compare and evaluate. |
+| **Supplier Discovery** | Help businesses identify potential suppliers based on relevant products, categories, and business information. |
+| **Business Services** | Connect businesses with professionals and organizations offering specialized services. |
+| **Surplus Inventory Exchange** | Enable businesses to list excess inventory and connect with potential buyers. |
+| **Business & Account Management** | Manage business profiles, user accounts, authentication, and access permissions. |
 
----
+## How BizConnect Works
 
-## 2. Why was this project developed?
+The central workflow is requirement-based procurement.
 
-Business procurement often involves multiple disconnected activities.
+### 1. Product Discovery
 
-A business looking to purchase products in bulk may need to search for suppliers independently, contact different vendors, negotiate prices, compare quotations, and verify product availability.
+1. Suppliers publish products and their relevant details.
+2. Buyers browse available products and supplier information.
+3. Buyers discover businesses that may fulfil their purchasing needs.
+4. Interested businesses initiate contact with suppliers.
 
-Similarly, suppliers may struggle to discover potential buyers who are actively looking for their products.
+### 2. Requirement-Based Procurement
 
-Another challenge is surplus inventory. Businesses sometimes have unused or excess stock that could be useful to another business but lack an effective channel to connect with potential buyers.
+This is the central workflow of BizConnect.
 
-### Problems this project aims to address
-
-1. **Fragmented Supplier Discovery:** Businesses often rely on multiple sources to find suitable suppliers.
-2. **Inefficient Procurement:** Comparing prices, quantities, and supplier offers can be time-consuming.
-3. **Limited Business Visibility:** Small suppliers and manufacturers may struggle to reach potential business customers.
-4. **Unstructured Requirements:** Buyers need a centralized way to communicate their purchasing needs.
-5. **Underutilized Inventory:** Surplus stock may remain unused despite demand from other businesses.
-
-### Our Approach
-
-The platform brings these activities together through a centralized B2B ecosystem.
-
-Its goal is to make business-to-business interactions more accessible, organized, and efficient.
-
----
-
-## 3. How does it work?
-
-The platform follows a buyer-supplier interaction model.
-
-### A. Product Marketplace
-
-1. Suppliers list their available products.
-2. Buyers explore available products.
-3. Buyers review product and supplier information.
-4. Interested businesses connect with suppliers.
-
-### B. Requirement-Based Procurement
-
-This is one of the central functionalities of the platform.
-
-1. A buyer publishes a purchasing requirement.
-2. The requirement includes details such as product, quantity, budget, and delivery location.
+1. A buyer publishes a procurement requirement.
+2. The requirement includes product specifications, required quantity, budget, and delivery location.
 3. Relevant suppliers discover the requirement.
-4. Interested suppliers submit quotations.
-5. The buyer compares available quotations and selects a suitable supplier.
+4. Interested suppliers submit quotations with pricing, availability, and delivery terms.
+5. The buyer compares quotations from multiple suppliers.
+6. The buyer selects a suitable offer and proceeds with the procurement process.
 
-### C. Business Services
+### 3. Supplier Discovery
 
-1. Service providers publish their offerings.
-2. Businesses explore available services.
-3. Interested users connect with relevant service providers.
+1. Suppliers maintain business profiles and publish their offerings.
+2. Buyers explore suppliers relevant to their requirements.
+3. Businesses evaluate available supplier information.
+4. Buyers connect with potential suppliers.
 
-### D. Surplus Inventory Redistribution
+### 4. Surplus Inventory Exchange
 
 1. A business identifies excess or unused inventory.
-2. The business publishes its available stock.
-3. Other businesses discover the listing.
+2. The business publishes available stock details.
+3. Other businesses discover relevant surplus listings.
 4. Interested buyers connect with the inventory owner.
 
----
+## Key Product Capabilities
 
-## 4. Technology Stack
+BizConnect is designed around the following capabilities:
 
-The project is developed using Java-based web technologies.
+- Business-oriented product discovery.
+- Structured procurement requirement publishing.
+- Multi-supplier quotation submission.
+- Quotation comparison and evaluation.
+- Supplier and business profile management.
+- Business service discovery.
+- Surplus inventory listing and discovery.
+- Secure authentication and role-based access.
+- Procurement activity tracking and notifications.
+
+## Application Architecture
+
+The application follows a layered architecture with clearly separated responsibilities.
+
+```text
+               BUYERS / SUPPLIERS
+                       |
+                       v
+               REACT FRONTEND
+                       |
+                       v
+                   REST APIs
+                       |
+                       v
+              SPRING BOOT BACKEND
+                       |
+           +-----------+-----------+
+           |           |           |
+           v           v           v
+       AUTHENTICATION PROCUREMENT SUPPLIER
+           |           |           |
+           +-----------+-----------+
+                       |
+                       v
+                   POSTGRESQL
+                       |
+                       v
+             PERSISTENT APPLICATION DATA
+```
+
+### Frontend Layer
+
+- Provides interfaces for buyers, suppliers, and administrators.
+- Handles user interactions and form submissions.
+- Communicates with backend services through REST APIs.
+- Presents product listings, procurement requirements, and quotations.
+
+### Backend Layer
+
+- Handles incoming HTTP requests.
+- Implements business rules and procurement workflows.
+- Manages authentication and authorization.
+- Validates user input and coordinates database operations.
+- Maintains consistency across business transactions.
+
+### Database Layer
+
+- Stores business accounts and user information.
+- Maintains product and supplier records.
+- Stores procurement requirements and quotations.
+- Supports transactional operations and data retrieval.
+
+## Technology Stack
 
 | Component | Technology |
 |---|---|
-| Frontend | HTML, CSS, JavaScript |
-| Backend | Java |
-| Server-side Processing | Jakarta Servlets, JSP |
-| Database | MongoDB |
-| Application Server | Apache Tomcat |
-| Authentication | Session Management, JWT |
-| Email Verification | OTP-based verification |
+| Frontend | React, TypeScript |
+| Backend | Java, Spring Boot |
+| Database | PostgreSQL |
+| API Communication | REST APIs |
+| Authentication | Secure Authentication, Role-Based Authorization |
+| Caching | Redis (Planned) |
+| Asynchronous Processing | Message Broker (Planned) |
+| Version Control | Git, GitHub |
 
----
+## Engineering Focus
 
-## 5. Application Architecture
+Beyond implementing application features, BizConnect aims to address meaningful software engineering challenges:
 
-The application follows a layered web application architecture.
+- **Database Design:** Modelling relationships between businesses, products, requirements, quotations, and orders.
+- **Transactional Consistency:** Ensuring procurement operations maintain valid application states.
+- **Concurrency Control:** Handling simultaneous supplier responses and procurement updates safely.
+- **Search and Matching:** Discovering relevant suppliers and products efficiently.
+- **Security:** Enforcing business-level access permissions and protecting sensitive information.
+- **Scalability:** Designing modular application components that can evolve as usage grows.
+- **Reliability:** Maintaining accurate procurement histories and handling failures gracefully.
 
-### Frontend Layer
-- Provides the user interface.
-- Handles user interactions and form submissions.
-- Communicates with backend endpoints.
+## Development Roadmap
 
-### Backend Layer
-- Handles HTTP requests through Servlets.
-- Processes business logic.
-- Performs authentication and input validation.
-- Coordinates database operations.
+Development will follow incremental milestones.
 
-### Database Layer
-- Stores user and business-related information.
-- Manages marketplace listings and other application data.
-- Supports retrieval and modification of records.
+| Phase | Focus |
+|---|---|
+| Phase 1 | Application foundation, business registration, authentication, and profiles |
+| Phase 2 | Product marketplace and supplier discovery |
+| Phase 3 | Procurement requirements and quotation management |
+| Phase 4 | Quotation acceptance and procurement order lifecycle |
+| Phase 5 | Notifications, supplier reputation, and surplus inventory |
+| Phase 6 | Advanced search, analytics, and platform improvements |
 
-### General Request Flow
+Features will be introduced progressively and documented as they become available.
 
-```text
-             USER
-               |
-               v
-        FRONTEND (JSP)
-               |
-               v
-         HTTP REQUEST
-               |
-               v
-         JAVA SERVLETS
-               |
-               v
-         BUSINESS LOGIC
-               |
-               v
-            MONGODB
-               |
-               v
-         HTTP RESPONSE
-               |
-               v
-        FRONTEND (JSP)
-```
-
----
-
-## 6. Key Objectives
-
-- Build a centralized B2B marketplace.
-- Simplify business procurement.
-- Improve buyer-supplier connectivity.
-- Introduce requirement-based quotation management.
-- Provide visibility to suppliers and service providers.
-- Encourage efficient utilization of surplus inventory.
-- Develop a scalable foundation for future marketplace functionalities.
-
----
-
-## 7. Project Status
+## Project Status
 
 **Status: Under Development**
 
-The project is being developed incrementally, with authentication and foundational web application functionality forming the initial foundation.
+BizConnect is being developed incrementally. Its initial focus is establishing the application foundation and building the core buyer-supplier procurement workflow.
 
-Further modules, including product listings, requirement management, supplier quotations, and inventory redistribution, are part of the planned development.
+The product marketplace, requirement management, quotation engine, and additional business capabilities form the planned development roadmap.
 
----
-
-## 8. Future Scope
+## Future Scope
 
 Potential future enhancements include:
 
-- Business verification and supplier credibility systems.
-- Advanced product search and filtering.
-- Automated supplier matching.
+- Business and supplier verification.
+- Intelligent supplier recommendations.
+- Advanced search and filtering.
+- Quotation negotiation and revision workflows.
+- Supplier performance and credibility indicators.
 - Real-time notifications and communication.
-- Quotation comparison and negotiation.
-- Order and transaction management.
-- Analytics and business insights.
+- Procurement analytics and reporting.
+- Order and delivery tracking.
 - Secure payment integration.
-- Recommendation systems.
+- Demand and inventory insights.
 
----
+## Vision
 
-## 9. Vision
+To build a unified B2B ecosystem that makes business procurement more accessible, transparent, and efficient.
 
-To create a unified digital ecosystem where businesses can discover opportunities, connect with reliable suppliers, fulfil procurement requirements, and utilize resources more efficiently.
+BizConnect aims to help businesses discover reliable suppliers, communicate purchasing requirements, evaluate competing offers, and utilize available resources more effectively.
 
 **One Platform. Multiple Businesses. Better Connections.**
 
 ---
 
-## 10. Contribution
+## Contributing
 
 Contributions, suggestions, and feedback are welcome.
 
-If you have ideas for improving the platform or identifying additional business procurement challenges, feel free to open an issue or submit a pull request.
+If you would like to contribute:
+
+1. Fork the repository or obtain collaborator access.
+2. Create a feature branch.
+3. Implement your changes with appropriate documentation.
+4. Test your changes.
+5. Submit a Pull Request for review.
+
+Please follow the repository's contribution guidelines and existing code conventions.
 
 ---
 
-*Developed as a B2B Marketplace College Project.*
+*Developed as a collaborative academic software engineering project.*
