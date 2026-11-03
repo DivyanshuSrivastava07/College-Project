@@ -1,9 +1,9 @@
-# BizConnect
+# BuisnessSetu
 ### B2B Procurement & Supplier Discovery Platform
 
 **Discover suppliers. Publish requirements. Compare quotations. Build business connections.**
 
-BizConnect is a B2B platform designed to connect buyers, suppliers, manufacturers, vendors, and service providers through a unified digital marketplace.
+BuisnessSetu is a B2B platform designed to connect buyers, suppliers, manufacturers, vendors, and service providers through a unified digital marketplace.
 
 The platform aims to simplify business procurement by bringing product discovery, purchasing requirements, supplier quotations, and surplus inventory opportunities into one ecosystem.
 
@@ -15,9 +15,9 @@ Business procurement often involves fragmented processes. Buyers independently s
 
 At the same time, suppliers—particularly small and medium-sized businesses—may struggle to discover relevant purchasing opportunities and reach potential buyers.
 
-**BizConnect** aims to address these challenges by providing a centralized platform where businesses can discover opportunities, connect with potential partners, and manage procurement interactions more efficiently.
+**BuisnessSetu** aims to address these challenges by providing a centralized platform where businesses can discover opportunities, connect with potential partners, and manage procurement interactions more efficiently.
 
-Unlike conventional B2C e-commerce platforms, BizConnect focuses on business-oriented transactions, bulk purchasing requirements, supplier relationships, and structured quotation workflows.
+Unlike conventional B2C e-commerce platforms, BuisnessSetu focuses on business-oriented transactions, bulk purchasing requirements, supplier relationships, and structured quotation workflows.
 
 ## The Problem
 
@@ -31,7 +31,7 @@ Business procurement involves several challenges:
 
 ## Our Solution
 
-BizConnect provides a unified environment for business-to-business interactions through interconnected modules.
+BuisnessSetu provides a unified environment for business-to-business interactions through interconnected modules.
 
 ### Core Modules
 
@@ -45,7 +45,7 @@ BizConnect provides a unified environment for business-to-business interactions 
 | **Surplus Inventory Exchange** | Enable businesses to list excess inventory and connect with potential buyers. |
 | **Business & Account Management** | Manage business profiles, user accounts, authentication, and access permissions. |
 
-## How BizConnect Works
+## How BuisnessSetu Works
 
 The central workflow is requirement-based procurement.
 
@@ -58,7 +58,7 @@ The central workflow is requirement-based procurement.
 
 ### 2. Requirement-Based Procurement
 
-This is the central workflow of BizConnect.
+This is the central workflow of BuisnessSetu.
 
 1. A buyer publishes a procurement requirement.
 2. The requirement includes product specifications, required quantity, budget, and delivery location.
@@ -83,7 +83,7 @@ This is the central workflow of BizConnect.
 
 ## Key Product Capabilities
 
-BizConnect is designed around the following capabilities:
+BuisnessSetu is designed around the following capabilities:
 
 - Business-oriented product discovery.
 - Structured procurement requirement publishing.
@@ -162,7 +162,7 @@ The application follows a layered architecture with clearly separated responsibi
 
 ## Engineering Focus
 
-Beyond implementing application features, BizConnect aims to address meaningful software engineering challenges:
+Beyond implementing application features, BuisnessSetu aims to address meaningful software engineering challenges:
 
 - **Database Design:** Modelling relationships between businesses, products, requirements, quotations, and orders.
 - **Transactional Consistency:** Ensuring procurement operations maintain valid application states.
@@ -191,7 +191,7 @@ Features will be introduced progressively and documented as they become availabl
 
 **Status: Under Development**
 
-BizConnect is being developed incrementally. Its initial focus is establishing the application foundation and building the core buyer-supplier procurement workflow.
+BuisnessSetu is being developed incrementally. Its initial focus is establishing the application foundation and building the core buyer-supplier procurement workflow.
 
 The product marketplace, requirement management, quotation engine, and additional business capabilities form the planned development roadmap.
 
@@ -214,7 +214,7 @@ Potential future enhancements include:
 
 To build a unified B2B ecosystem that makes business procurement more accessible, transparent, and efficient.
 
-BizConnect aims to help businesses discover reliable suppliers, communicate purchasing requirements, evaluate competing offers, and utilize available resources more effectively.
+BuisnessSetu aims to help businesses discover reliable suppliers, communicate purchasing requirements, evaluate competing offers, and utilize available resources more effectively.
 
 **One Platform. Multiple Businesses. Better Connections.**
 
